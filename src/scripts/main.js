@@ -7,15 +7,15 @@ class Heroes {
     attack(){
         let attackName = ""
         if (this.carrer === "mago" ) {
-            attackName += "magia"
+            attackName + = "magia"
         } else if (this.carrer === "guerreiro"){
-            attackName += "espada"
+            attackName + = "espada"
         } else if (this.carrer === "monge"){
-            attackName += "artes marciais"
+            attackName + = "artes marciais"
         } else if (this.carrer ==="ninja"){
-            attackName += "shuriken"
+            attackName + = "shuriken"
         } else {
-            attackName += "'ataque indisponivel'"
+            attackName + = "'ataque indisponivel'"
         }
 
         console.log(`O ${this.carrer} atacou usando ${attackName}!`)
